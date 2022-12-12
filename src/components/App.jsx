@@ -1,10 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import {
-  fetchContacts,
-  removeContact,
-  addContact,
-} from '../redux/contacts/contacts-operations';
+
+import {fetchContacts, removeContact, addContact,} from '../redux/contacts/contacts-operations';
 import { filterChange } from '../redux/contacts/contacts-actions';
 import { getContacts, getFilterValue } from '../redux/contacts/contacts-selectors';
 import Container from './Container/Container';
